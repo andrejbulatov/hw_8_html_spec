@@ -432,6 +432,225 @@ body {
     }
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .container {
+        max-width: 319px;
+        justify-content: center;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .header {
+        margin-bottom: 64px;
+    }
+
+    .menu-link {
+        font-size: 14px;
+        padding: 40px 10px;
+    }
+
+    .main-left {
+        margin-bottom: 128px;
+    }
+
+    .main-right {
+        justify-content: center;
+    }
+
+    .main-left, .main-right {
+        width: auto;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .title {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .dsc {
+        text-align: center;
+        margin-bottom: 39px;
+    }
+
+    .main-link {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .div-buttons {
+        max-width: 319px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .mb-buttons {
+        margin-bottom: 24px;
+    }
+
+    .image-main {
+        width: 319px;
+        height: 320px;
+    }
+
+    .main {
+        margin-bottom: 128px;
+    }
+
+    .logos {
+        max-width: 319px;
+        margin-bottom: 204px;
+    }
+
+    .mb__logo {
+        margin-bottom: 32px;
+    }
+
+    .mr__logo {
+        margin-right: 0;
+    }
+
+    .mb__logo_mob {
+        margin-bottom: 32px;
+    }
+
+    .image-apply {
+        width: 319px;
+        height: 293px;
+    }
+
+    .apply-ai-left, .apply-ai-right {
+        width: auto;
+    }
+    
+    .apply-ai-left {
+        margin-bottom: 68px;
+        margin-right: 0;
+    }
+    
+    .flex-middle {
+        flex-wrap: wrap;
+    }
+
+    .title-apply {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .dsc-apply {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .apply-link {
+        margin-right: 0;
+    }
+
+    .apply-ai {
+        margin-bottom: 96px;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 319px;
+        gap: 32px;
+    }
+
+    .big-offer {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .big-offer-margin {
+        width: 25%;
+        height: 25%;
+        margin-bottom: 30px;
+    }
+
+    .offer {
+        margin-bottom: 96px;
+    }
+
+    .title-opinion {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .dsc-opinion {
+        text-align: center;
+    }
+
+    .opinion-left {
+        margin-bottom: 32px;
+    }
+
+    .image-opinion {
+        width: 319px;
+        height: 271px;
+    }
+
+    .opinion {
+        margin-bottom: 96px;
+    }
+
+    .footer {
+        padding-top: 113px;
+        padding-bottom: 64px;
+    }
+
+    .title-footer {
+        text-align: center;
+    }
+
+    .info, .about-store, .contact {
+        min-width: 100%;
+        padding-left: 0px;
+    }
+
+    .add {
+        justify-content:flex-start;
+    }
+    
+    .info {
+        margin-bottom: 32px;
+        order: 1;
+    }
+
+    .about-store {
+        order: 0;
+    }
+
+    .contact{
+        order: 2;
+    }
+
+    .mb-about-store {
+        margin-bottom: 32px;
+    }
+
+    .footer-content-center {
+        text-align: center;
+    }
+
+    .social-net {
+        display: flex;
+        justify-content: center;
+    }
+
+}
 
 
 
