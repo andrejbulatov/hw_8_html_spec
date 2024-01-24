@@ -293,6 +293,16 @@ body {
     text-decoration: none;
 }
 
+.footer-content-mail {
+    color: var(--ffffff, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
 .footer-content-mb {
     margin-bottom: 25px;
 }
@@ -336,6 +346,22 @@ body {
 
 .icons-mr {
     margin-right: 24px;
+}
+
+.footer-content-mail:hover {
+    color: #3A68B8;
+}
+
+.twitter:hover {
+    color: #3A68B8;
+}
+
+.linkedIn:hover {
+    color: #3A68B8;
+}
+
+.youtube:hover {
+    color: #3A68B8;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
